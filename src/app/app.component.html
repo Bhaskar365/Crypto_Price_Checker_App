@@ -1,7 +1,7 @@
 <mat-toolbar>
   <span>My Application</span>
   <span class="example-spacer"></span>
-  <mat-form-field appearance="outline">
+  <mat-form-field appearance="outline" class="mt-4">
     <mat-select class="text-sm" [(ngModel)]="selectedCurrency" (valueChange)="selectCurrency($event)">
       <mat-option selected value="INR">INR</mat-option>
       <mat-option value="USD">USD</mat-option>
